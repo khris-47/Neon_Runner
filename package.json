@@ -1,8 +1,11 @@
 {
-  "name": "endless-runner-3d",
+  "name": "neon-runner",
   "version": "0.1.0",
-  "description": "Endless Runner 3D procedural para navegador con estetica neon futurista.",
+  "description": "Neon Runner, juego procedural para navegador con estetica neon futurista.",
   "type": "module",
+    "allowScripts": {
+    "esbuild": true
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
